@@ -1,0 +1,377 @@
+[21:38:02] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.18.2
+[21:38:06] [main/INFO]: Loading 134 mods:
+	- alternate-current 1.9.0
+	- architectury 17.0.8
+	- c2me 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-base 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-client-uncapvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-general-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-notickvd 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-allocs 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-dfc 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-math 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-scheduling 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-general 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-opts-worldgen-vanilla 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-serializer 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunk-system 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-rewrites-chunkio 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-server-utils 0.3.5+alpha.0.8+1.21.8
+	   |-- c2me-threading-lighting 0.3.5+alpha.0.8+1.21.8
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- carpet 1.4.177+v250630
+	- collective 8.11
+	- cristellib 3.0.2
+	   \-- blue_endless_jankson 1.2.3
+	- easyauth 3.4.3
+	   |-- at_favre_lib_bcrypt 0.10.2
+	   |-- at_favre_lib_bytes 1.6.1
+	   |-- com_mysql_mysql-connector-j 9.2.0
+	   |-- de_mkammerer_argon2-jvm 2.12
+	   |-- de_mkammerer_argon2-jvm-nolibs 2.12
+	   |-- net_java_dev_jna_jna 5.16.0
+	   |-- org_iq80_leveldb_leveldb 0.12
+	   |-- org_iq80_leveldb_leveldb-api 0.12
+	   |-- org_postgresql_postgresql 42.7.10
+	   |-- org_xerial_sqlite-jdbc 3.49.1.0
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- essential_commands 0.38.5-mc1.21.8
+	   |-- ec-core 1.3.0-mc1.21.8
+	   |-- fabric-permissions-api-v0 0.4.1
+	   |-- mixinextras 0.5.0
+	   |-- org_yaml_snakeyaml 2.5
+	   |-- placeholder-api 2.7.2+1.21.8
+	   \-- playerabilitylib 1.14.0
+	- fabric-api 0.136.1+1.21.8
+	   |-- fabric-api-base 0.5.0+cd8c0daa2c
+	   |-- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	   |-- fabric-biome-api-v1 16.1.0+c21d71cc2c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c32c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	   |-- fabric-command-api-v2 2.3.1+52fff9ec2c
+	   |-- fabric-content-registries-v0 10.1.0+c75de69d2c
+	   |-- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	   |-- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	   |-- fabric-data-attachment-api-v1 1.8.14+97214db32c
+	   |-- fabric-data-generation-api-v1 23.2.8+2e1c6d322c
+	   |-- fabric-dimensions-v1 4.0.20+948fc79a2c
+	   |-- fabric-entity-events-v1 2.1.2+c9e472732c
+	   |-- fabric-events-interaction-v0 4.0.26+946bf4c32c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	   |-- fabric-item-api-v1 11.5.0+02ce13f42c
+	   |-- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	   |-- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	   |-- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	   |-- fabric-loot-api-v3 2.0.3+946bf4c32c
+	   |-- fabric-message-api-v1 6.1.2+946bf4c32c
+	   |-- fabric-model-loading-api-v1 5.2.8+946bf4c32c
+	   |-- fabric-networking-api-v1 5.1.0+57cb96dd2c
+	   |-- fabric-object-builder-api-v1 21.1.10+946bf4c32c
+	   |-- fabric-particles-v1 4.1.10+946bf4c32c
+	   |-- fabric-recipe-api-v1 8.1.17+946bf4c32c
+	   |-- fabric-registry-sync-v0 6.1.30+946bf4c32c
+	   |-- fabric-renderer-api-v1 7.0.5+208eed172c
+	   |-- fabric-renderer-indigo 4.0.5+946bf4c32c
+	   |-- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	   |-- fabric-rendering-v1 12.6.0+486b7ff72c
+	   |-- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	   |-- fabric-resource-loader-v0 3.1.12+020423442c
+	   |-- fabric-screen-api-v1 2.2.0+e0cb65d02c
+	   |-- fabric-screen-handler-api-v1 1.3.139+946bf4c32c
+	   |-- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c32c
+	   |-- fabric-tag-api-v1 1.2.2+946bf4c32c
+	   |-- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	   \-- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fabrictailor 2.8.0
+	   |-- config2brigadier 2.1.0
+	   |    \-- fabric-permissions-api-v0 0.4.1
+	   \-- fabric-permissions-api-v0 0.4.1
+	- ferritecore 8.0.4
+	- goml 1.17.1+1.21.7
+	   |-- cardinal-components-base 7.0.0-beta.1
+	   |-- cardinal-components-world 7.0.0-beta.1
+	   |-- common-protection-api 1.0.0
+	   |-- playerabilitylib 1.14.0
+	   |-- rtree-3i-lite-fabric 0.3.0
+	   |-- server_translations_api 2.5.1+1.21.5
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.10.0+1.21.6
+	- improved_village_placement 1.1.2
+	- jamlib 1.3.5+1.21.8
+	   \-- blue_endless_jankson 1.2.3
+	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.18.1+mc1.21.8
+	- lithostitched 1.5.0+beta5
+	- minecraft 1.21.8
+	- mr_dungeons_andtaverns 1-v4.7.3
+	- mr_lithosphere 1.7
+	- nullscape 1.2.14
+	- polymer-bundled 0.13.13+1.21.8
+	   |-- polymer-autohost 0.13.13+1.21.8
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.13.13+1.21.8
+	   |-- polymer-common 0.13.13+1.21.8
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-core 0.13.13+1.21.8
+	   |    |-- polymer-networking 0.13.13+1.21.8
+	   |    |    \-- polymer-common 0.13.13+1.21.8
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.13.13+1.21.8
+	   |-- polymer-resource-pack 0.13.13+1.21.8
+	   |    \-- polymer-common 0.13.13+1.21.8
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-resource-pack-extras 0.13.13+1.21.8
+	   |-- polymer-sound-patcher 0.13.13+1.21.8
+	   \-- polymer-virtual-entity 0.13.13+1.21.8
+	        \-- polymer-common 0.13.13+1.21.8
+	             \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- rightclickharvest 4.6.0+1.21.8
+	- servercore 1.5.14+1.21.8
+	   |-- fabric-permissions-api-v0 0.4.1
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- t_and_t 1.13.5
+	- tectonic 3.0.13
+	- terralith 2.5.13
+	- universal-graves 3.8.1+1.21.6
+	   |-- common-protection-api 1.0.0
+	   |-- predicate-api 0.6.0+1.21.2
+	   |-- server_translations_api 2.5.1+1.21.5
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.10.0+1.21.6
+	- vanish 1.5.20+1.21.7
+	   |-- fabric-permissions-api-v0 0.4.1
+	   |-- player-data-api 0.8.0+1.21.6
+	   \-- server_translations_api 2.5.1+1.21.5
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- vmp 0.2.0+beta.7.207+1.21.8
+	   \-- com_ibm_async_asyncutil 0.1.0
+[21:38:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mu-ozitoserver/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:38:09] [main/INFO]: Compatibility level set to JAVA_16
+[21:38:09] [main/INFO]: Compatibility level set to JAVA_17
+[21:38:09] [main/INFO]: Compatibility level set to JAVA_21
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[21:38:09] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:38:09] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@17.0.8 (*) (defined in c2me)
+[21:38:09] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[21:38:09] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[21:38:09] [main/WARN]: Reference map 'easyauth-mc1.21.6-refmap.json' for easyauth.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:38:09] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[21:38:09] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[21:38:10] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[21:38:10] [main/WARN]: Error loading class: vazkii/botania/common/entity/EntityManaBurst (java.lang.ClassNotFoundException: vazkii/botania/common/entity/EntityManaBurst)
+[21:38:10] [main/WARN]: Error loading class: vazkii/botania/common/item/ItemLaputaShard (java.lang.ClassNotFoundException: vazkii/botania/common/item/ItemLaputaShard)
+[21:38:10] [main/WARN]: @Mixin target vazkii.botania.common.item.ItemLaputaShard was not found goml.mixins.json:compat.BotaniaItemLaputaShardMixin from mod goml
+[21:38:10] [main/WARN]: Error loading class: org/dynmap/Client (java.lang.ClassNotFoundException: org/dynmap/Client)
+[21:38:11] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[21:38:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:38:15] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[21:38:19] [main/INFO]: Loading Collective version 8.11.
+[21:38:19] [main/INFO]: [EasyAuth]: EasyAuth mod by NikitaCartes
+[21:38:20] [main/INFO]: [EssentialCommands]: Mod Load Initiated.
+[21:38:21] [main/INFO]: [EssentialCommands]: Mod Load Complete.
+[21:38:21] [main/INFO]: Initializing JamLib on Fabric
+[21:38:21] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[21:38:21] [ForkJoinPool.commonPool-worker-1/INFO]: Essential Commands is up to date!
+[21:38:21] [main/INFO]: Updated config file at /workspaces/mu-ozitoserver/servidor_minecraft/config/rightclickharvest.json5
+[21:38:21] [main/INFO]: Initializing Right Click Harvest on FABRIC
+[21:38:21] [main/INFO]: [ServerCore] Loaded V1.5.14+1.21.8!
+[21:38:21] [main/INFO]: Loading configuration...
+[21:38:21] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[21:38:22] [main/WARN]: resource-pack-id missing, using default of 5bbd0f8b-17c9-3835-82f9-5cec4504f782
+[21:38:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:38:22] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/1.3.5-backpacks_dtpk-1.21.6-1.21.8.zip, ignoring
+[21:38:22] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/1.3.5-backpacks_dtpk-1.21.6-1.21.8.zip, ignoring
+[21:38:23] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.435]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=CacheOnce, wrapped=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=0.01]}], argument2=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=11.000000000000004, yScale=0.0]}], minValue=-0.02, maxValue=0.02]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@15d9f925, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@51c1caf, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5fd6cdf8, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@3355b951, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@65808318, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@1c0263, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=-1.04755, maxValue=-0.13452420895099637]}]
+[21:38:23] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-1.45]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=-0.73]}], argument2=class_7051[function=Direct{class_6925[type=ABS, input=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=CacheOnce, wrapped=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=0.01]}], argument2=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=11.000000000000004, yScale=0.0]}], minValue=-0.02, maxValue=0.02]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@15d9f925, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@51c1caf, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5fd6cdf8, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@3355b951, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@65808318, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@1c0263, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.0, maxValue=0.6362549066543579]}], minValue=-0.73, maxValue=-0.09374509334564207]}], minValue=0.135930385351181, maxValue=1.0585]}]
+[21:38:23] [main/WARN]: Creating a MIN function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=0.15]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=-2.25]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.68]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=CacheOnce, wrapped=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=0.01]}], argument2=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=11.000000000000004, yScale=0.0]}], minValue=-0.02, maxValue=0.02]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@15d9f925, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@51c1caf, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5fd6cdf8, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@3355b951, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@65808318, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@1c0263, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.04374509334564214, maxValue=1.316254906654358]}], minValue=-2.9615735399723055, maxValue=-0.09842646002769481]}]
+[21:38:23] [main/WARN]: Creating a MAX function between two non-overlapping inputs: class_7051[function=Direct{class_6923[value=-0.12]}] and class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=1.2]}], argument2=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6923[value=0.72]}], argument2=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6917[type=ADD, argument1=class_7051[function=Direct{class_6927[type=CacheOnce, wrapped=class_7051[function=Direct{class_6927[type=FlatCache, wrapped=class_7051[function=Direct{class_6927[type=Cache2D, wrapped=class_7051[function=Reference{ResourceKey[minecraft:worldgen/density_function / lithosphere:topography_final]=null}]]}]]}]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_6923[value=0.01]}], argument2=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=11.000000000000004, yScale=0.0]}], minValue=-0.02, maxValue=0.02]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.6]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.9]}], minValue=-Infinity, maxValue=Infinity]}], argument2=class_7051[function=Direct{class_6923[value=0.75]}], minValue=-Infinity, maxValue=Infinity]}], locations=[F@15d9f925, values=[class_6494[value=0.0], class_6494[value=0.05], class_6494[value=0.1], class_6494[value=0.15], class_6494[value=0.62], class_6494[value=0.63]], derivatives=[F@51c1caf, minValue=-0.0125, maxValue=0.6362549]]}], argument2=class_7051[function=Direct{class_6917[type=MUL, argument1=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6925[type=ABS, input=class_7051[function=Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:rivers]=class_5487[firstOctave=-11, amplitudes=[5.0, 3.0, 0.0, 3.0, 3.0, 1.0, 0.5, 0.5]]}, noise=null], xzScale=0.7, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], locations=[F@5fd6cdf8, values=[class_6494[value=-1.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=0.0], class_6494[value=1.0]], derivatives=[F@3355b951, minValue=-1.0, maxValue=1.0]]}], argument2=class_7051[function=Direct{class_7076[spline=class_6738[coordinate=Coordinate[Direct{class_6931[noise=class_7270[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / lithosphere:biome_variation]=class_5487[firstOctave=-9, amplitudes=[1.4, 1.2, 1.3, 1.3, 0.2]]}, noise=null], xzScale=1.0, yScale=0.0]}], locations=[F@65808318, values=[class_6494[value=-1.0], class_6494[value=1.0]], derivatives=[F@1c0263, minValue=-1.0, maxValue=1.0]]}], minValue=-1.0, maxValue=1.0]}], minValue=-0.6362549066543579, maxValue=0.6362549066543579]}]]}]]}], minValue=0.08374509334564206, maxValue=1.3562549066543579]}], minValue=0.10049411201477047, maxValue=1.6275058879852293]}]
+[21:38:25] [Worker-Main-3/WARN]: Invalid path in datapack: backpacks:function/.DS_Store, ignoring
+[21:38:25] [Worker-Main-3/WARN]: Invalid path in datapack: backpacks:function/bp/.DS_Store, ignoring
+[21:38:25] [Worker-Main-3/WARN]: Invalid path in datapack: backpacks:function/bp/container/.DS_Store, ignoring
+[21:38:25] [main/INFO]: Loaded 1520 recipes
+[21:38:25] [main/INFO]: Loaded 1593 advancements
+[21:38:25] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 277 translation keys
+[21:38:25] [main/INFO]: Applied 0 biome modifications to 0 of 163 new biomes in 2.193 ms
+[21:38:26] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:38:26] [Server thread/INFO]: Loading properties
+[21:38:26] [Server thread/INFO]: Default game type: SURVIVAL
+[21:38:26] [Server thread/INFO]: Generating keypair
+[21:38:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:38:26] [Server thread/INFO]: Using epoll channel type
+[21:38:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:38:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:38:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:38:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:38:26] [Server thread/INFO]: Preparing level "world"
+[21:38:26] [Server thread/INFO]: Enforcing safe world random access
+[21:38:27] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 784.4 ms
+[21:38:27] [Server thread/INFO]: Changing watch distance to 32
+[21:38:27] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[21:38:30] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 1.938 s
+[21:38:30] [Server thread/INFO]: Changing watch distance to 32
+[21:38:30] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.213 ms
+[21:38:30] [Server thread/INFO]: Changing watch distance to 32
+[21:38:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:38:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-2/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-0/INFO]: Preparing spawn area: 51%
+[21:39:05] [c2me-worker-1/INFO]: Preparing spawn area: 51%
+[21:39:05] [minecraft_overworld - Light/INFO]: Preparing spawn area: 51%
+[21:39:07] [c2me-worker-0/INFO]: Preparing spawn area: 93%
+[21:39:07] [c2me-worker-0/INFO]: Preparing spawn area: 93%
+[21:39:07] [c2me-worker-0/INFO]: Preparing spawn area: 93%
+[21:39:07] [Server thread/INFO]: Time elapsed: 36832 ms
+[21:39:07] [Server thread/INFO]: Done (40.896s)! For help, type "help"
+[21:39:07] [Server thread/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[21:39:07] [Server thread/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[21:39:07] [Server thread/INFO]: Possible world ids: minecraft:overworld,minecraft:the_end,minecraft:the_nether
+[21:39:07] [Server thread/INFO]: Configured `rtp_enabled_worlds` world ids: minecraft:overworld
+[21:39:07] [Server thread/INFO]: All configured `rtp_enabled_worlds` world ids are valid.
+[21:40:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:43:33] [Server thread/INFO]: Async chunk loading for player zanitaaa completed after 196.0 ms
+[21:43:34] [Server thread/INFO]: zanitaaa[/10.88.106.62:51315] logged in with entity id 24 at (1642.7386380786518, 260.0, 333.1195182504495)
+[21:43:34] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid '21fa9abc-a832-32f4-9297-295a7abc8f4f'.
+[21:43:34] [Server thread/INFO]: zanitaaa joined the game
+[21:43:34] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid '21fa9abc-a832-32f4-9297-295a7abc8f4f'.
+[21:45:06] [Server thread/INFO]: Async chunk loading for player AGUSXDDEAH completed after 12.98 ms
+[21:45:06] [Server thread/INFO]: AGUSXDDEAH[/10.88.106.76:60506] logged in with entity id 2178 at (1753.5, 68.0, 631.5)
+[21:45:06] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:45:06] [Server thread/INFO]: AGUSXDDEAH joined the game
+[21:45:06] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:45:20] [Server thread/INFO]: [Not Secure] <zanitaaa> 1624 347
+[21:48:37] [Server thread/WARN]: AGUSXDDEAH moved too quickly! 8.983998183673975,0.0,-4.427141465702562
+[21:48:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3459ms or 69 ticks behind
+[21:50:24] [Server thread/INFO]: zanitaaa has made the advancement [Sneak 100]
+[21:50:48] [Server thread/INFO]: AGUSXDDEAH lost connection: Disconnected
+[21:50:48] [Server thread/INFO]: AGUSXDDEAH left the game
+[21:52:02] [Server thread/INFO]: Async chunk loading for player AGUSXDDEAH completed after 31.38 ms
+[21:52:03] [Server thread/INFO]: AGUSXDDEAH[/10.88.106.76:54344] logged in with entity id 5355 at (1752.509903573779, 68.0, 635.1266747907988)
+[21:52:03] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:52:03] [Server thread/INFO]: AGUSXDDEAH joined the game
+[21:52:03] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:52:25] [Server thread/WARN]: [net.minecraft.class_1299] Serialization errors:
+: Failed to decode value '{}' from field 'DisplayState': Input does not contain a key [Name]: MapLike[{}]
+[21:53:16] [Server thread/INFO]: zanitaaa has completed the challenge [It Spreads]
+[21:54:44] [Server thread/INFO]: [Not Secure] <zanitaaa> 1624 347
+[21:55:23] [Server thread/WARN]: AGUSXDDEAH was kicked for floating too long!
+[21:55:23] [Server thread/INFO]: AGUSXDDEAH lost connection: Flying is not enabled on this server
+[21:55:23] [Server thread/INFO]: AGUSXDDEAH left the game
+[21:55:38] [Server thread/INFO]: Async chunk loading for player AGUSXDDEAH completed after 18.62 ms
+[21:55:38] [Server thread/INFO]: AGUSXDDEAH[/10.88.106.76:58177] logged in with entity id 8341 at (1684.8835991543242, 194.39174783685073, 355.8941171977277)
+[21:55:38] [Server thread/INFO]: [Essential Commands] Loading PlayerData for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:55:38] [Server thread/INFO]: AGUSXDDEAH joined the game
+[21:55:38] [Server thread/INFO]: [Essential Commands] Loading PlayerProfile for player with uuid 'f4b632ef-21de-3df5-84dc-4e9d6af63ddb'.
+[21:57:06] [Server thread/INFO]: AGUSXDDEAH drowned
+[21:59:48] [Server thread/WARN]: [net.minecraft.class_1299] Serialization errors:
+: Failed to decode value '{}' from field 'DisplayState': Input does not contain a key [Name]: MapLike[{}]
+[22:00:26] [Server thread/WARN]: [net.minecraft.class_1299] Serialization errors:
+: Failed to decode value '{}' from field 'DisplayState': Input does not contain a key [Name]: MapLike[{}]
+[22:00:49] [Server thread/WARN]: [net.minecraft.class_1299] Serialization errors:
+: Failed to decode value '{}' from field 'DisplayState': Input does not contain a key [Name]: MapLike[{}]
+[22:00:59] [Server thread/WARN]: [net.minecraft.class_1299] Serialization errors:
+: Failed to decode value '{}' from field 'DisplayState': Input does not contain a key [Name]: MapLike[{}]
